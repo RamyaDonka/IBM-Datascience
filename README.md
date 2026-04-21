@@ -27,7 +27,7 @@ The dataset includes historical Falcon 9 launch data with features such as:
 
 ## 🧠 Methodology
 
-### 🔹 1. Data Preparation
+###  1. Data Preparation
 - Cleaned dataset and handled missing values  
 - Created a **binary classification column (Class)**:
   - `1` → Successful landing  
@@ -35,19 +35,19 @@ The dataset includes historical Falcon 9 launch data with features such as:
 
 ---
 
-### 🔹 2. Exploratory Data Analysis (EDA)
+###  2. Exploratory Data Analysis (EDA)
 - Analyzed relationships between features and landing outcomes  
 - Visualized trends across launch sites, payload mass, and orbit types  
 
 ---
 
-### 🔹 3. Feature Engineering
+###  3. Feature Engineering
 - Encoded categorical variables  
 - Standardized numerical features using scaling techniques  
 
 ---
 
-### 🔹 4. Model Development
+###  4. Model Development
 Implemented and trained the following classification models:
 - Logistic Regression  
 - Support Vector Machine (SVM)  
@@ -55,13 +55,13 @@ Implemented and trained the following classification models:
 
 ---
 
-### 🔹 5. Model Optimization
+###  5. Model Optimization
 - Performed **hyperparameter tuning** using GridSearchCV  
 - Optimized each model for best performance  
 
 ---
 
-### 🔹 6. Model Evaluation
+###  6. Model Evaluation
 - Split data into **training and testing sets**  
 - Evaluated models using:
   - Accuracy score  
@@ -69,7 +69,7 @@ Implemented and trained the following classification models:
 
 ---
 
-## 📈 Results
+##  Results
 - Compared performance of all models on test data  
 - Identified the best-performing model based on accuracy  
 
